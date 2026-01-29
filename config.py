@@ -1,13 +1,14 @@
 TOKEN = '8593787405:AAGdWhWnN60Tut35S47j4kyJ_K_fm68dSWE'  # Learn how to get one on https://core.telegram.org/bots#6-botfather
+MONGO_URL = mongodb+srv://Skl2gamebot:12ekJHN#1lj@cluster0.3oiptpd.mongodb.net/?appName=Cluster0
 ADMIN_ID = 34651378
 SKIP_PENDING = False  # Skip pending updates on bot startup
 PLAYERS_COUNT_TO_START = 4  # Minimal quantity of players that is required to start mafia game
 PLAYERS_COUNT_LIMIT = 10  # Maximum quantity of players that is allowed to start mafia game
 REQUEST_OVERDUE_TIME = 10 * 60  # Time (in seconds) of request's inactivity after which it gets deleted from database
-WORD_BASE = '/root/words.txt'  # File encoded with cp1251 containing word on each line
+WORD_BASE = 'words.txt'  # File encoded with cp1251 containing word on each line
 DELETE_FROM_EVERYONE = False  # Should bot delete messages from everyone in the chat and not just players?
 
-SET_WEBHOOK = True  # Uses long polling if set to False
+SET_WEBHOOK = False  # Uses long polling if set to False
 if SET_WEBHOOK:  # Refer to https://core.telegram.org/bots/webhooks to learn how to setup webhook components
     SERVER_IP = '216.239.32.68'
     SERVER_PORT = 80
