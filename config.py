@@ -1,4 +1,4 @@
-TOKEN = '8593787405:AAGdWhWnN60Tut35S47j4kyJ_K_fm68dSWE'  # Learn how to get one on https://core.telegram.org/bots#6-botfather
+TOKEN = '8593787405:AAH27DBLC8cYjOYYMjESEEl-Y09BozqpxvE'  # Learn how to get one on https://core.telegram.org/bots#6-botfather
 MONGO_URL = 'mongodb+srv://Skl2gamebot:12ekJHN#1lj@cluster0.3oiptpd.mongodb.net/?appName=Cluster0'
 ADMIN_ID = 34651378
 SKIP_PENDING = False  # Skip pending updates on bot startup
