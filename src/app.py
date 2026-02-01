@@ -130,3 +130,6 @@ def main():
         bot.set_webhook(url=url + config.TOKEN)
     else:
         bot.polling()
+        bot.set_webhook(url=url + config.TOKEN)
+    else:
+        bot.polling()
